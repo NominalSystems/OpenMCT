@@ -27,6 +27,8 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <title></title>
         <script src="openmct.js"></script>
+        <script src="espressoTheme.js"></script>
+        <link rel="stylesheet" href="espressoTheme.css">
         <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" type="image/x-icon">
         <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32" type="image/x-icon">
         <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16" type="image/x-icon">
@@ -82,7 +84,7 @@
         );
 
         openmct.install(openmct.plugins.LocalStorage());
-        openmct.install(openmct.plugins.Espresso());
+        //openmct.install(openmct.plugins.Espresso());
         openmct.install(openmct.plugins.MyItems());
         openmct.install(openmct.plugins.Generator());
         openmct.install(openmct.plugins.ExampleImagery());
